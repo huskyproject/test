@@ -8,3 +8,4 @@ test3 for Ivan Fedorov
 This is test line from me.
 /* Second test from Andy Luk'yanov */
 This is second test line from me. Add line in ChangeLog
+/* test from val */
