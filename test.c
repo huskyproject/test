@@ -10,3 +10,4 @@ This is test line from me.
 This is second test line from me. Add line in ChangeLog
 /* test from val */
 Testing keywords: $Revision$ and $Date$
+test husky-cvs list /antispam/
