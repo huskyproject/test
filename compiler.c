@@ -1,12 +1,13 @@
 static char *ident = "$Id$";
 
 /* Test compiler for predefined macroses
+ stdc
  */
 
 char *string = ""
 
 /*
-#ifdef 
+#ifdef
 "  "
 #endif
 */
@@ -199,6 +200,34 @@ char *string = ""
 " __TURBOC__ "
 #endif
 
+#ifdef __SUN__
+" __SUN__ "
+#endif
+
+#ifdef SUN
+" SUN "
+#endif
+
+#ifdef __sun__
+" __sun__ "
+#endif
+
+#ifdef sun
+" sun "
+#endif
+
+#ifdef __unix__
+" __unix__ "
+#endif
+
+#ifdef _unix
+ " _unix "
+#endif
+
+#ifdef unix
+ " unix "
+#endif
+
 #ifdef __UNIX__
 " __UNIX__ "
 #endif
@@ -279,7 +308,32 @@ char *string = ""
 " __HIGHC__ "
 #endif
 
+#ifdef near
+" near "
+#endif
+
+#ifdef far
+" far "
+#endif
+
+#ifdef huge
+" huge "
+#endif
+
+#ifdef pascal
+" pascal "
+#endif
+
+#ifdef fortran
+" fortran "
+#endif
+
+#ifdef cdecl
+" cdecl "
+#endif
+
 ;
+
 #include <stdio.h>
 
 int main(){
@@ -287,6 +341,7 @@ int main(){
 puts("Compiler predefined macroses test for HUSKY.\n (c) Stas Degteff & Husky Development Team\n\n");
 
 printf( "\nKnown predefined macroses list: \n%s\n\nSome values:\n" , string);
+
 
 #ifdef __GNUC__
 printf( "__GNUC__=%u (0x%X); ",__GNUC__, __GNUC__ );
