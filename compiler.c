@@ -312,16 +312,16 @@ char *string = ""
 #if defined(__bsd__)
 " __bsd__ "
 #endif
-#if defined( __svr4__ ) 
+#if defined( __svr4__ )
 " __svr4__ "
 #endif
-#if defined( svr4 ) 
+#if defined( svr4 )
 " svr4 "
 #endif
-#if defined( __SVR4__ ) 
+#if defined( __SVR4__ )
 " __SVR4__ "
 #endif
-#if defined( SVR4 ) 
+#if defined( SVR4 )
 " SVR4 "
 #endif
 #if defined( __SVR4 )
@@ -423,6 +423,34 @@ char *string = ""
 
 #ifdef _MSC_VER
  " _MSC_VER "
+#endif
+
+#ifdef __cplusplus
+ " __cplusplus "
+#endif
+
+#ifdef _DLL
+ " _DLL "
+#endif
+
+#ifdef _M_ALPHA
+ " _M_ALPHA "
+#endif
+
+#ifdef _M_IX86
+ " _M_IX86 "
+#endif
+
+#ifdef _M_MPPC
+ " _M_MPPC "
+#endif
+
+#ifdef _M_MRX000
+ " _M_MRX000 "
+#endif
+
+#ifdef _M_PPC
+ " _M_PPC "
 #endif
 
 #ifdef __STDC__
