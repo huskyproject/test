@@ -1,3 +1,7 @@
+2004-02-07 Saturday 22:15  d_sergienko
+
+	* test.c (1.33): syncmail test
+
 2003-05-09 Friday 10:04  mche
 
 	* test.c (1.32): test CRLF
