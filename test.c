@@ -15,3 +15,4 @@ test CRLF
 test syncmail
 test new nightly script
 test cvs tags & branches 2
+/* val: committing into "stable" branch (was v:1.34.2.2) */
