@@ -272,6 +272,79 @@ char *string = ""
 " sun "
 #endif
 
+#if defined(__AIX__)
+" __AIX__ "
+#endif
+
+#if defined(_AIX)
+" _AIX "
+#endif
+
+#if defined(__APPLE__)
+" __APPLE__ "
+#endif
+#if defined(__MACH__)
+" __MACH__ "
+#endif
+#if defined(__NetBSD__)
+" __NetBSD__ "
+#endif
+#if defined(__FreeBSD__)
+" __FreeBSD__ "
+#endif
+#if defined(__OpenBSD__)
+" __OpenBSD__ "
+#endif
+
+#if defined(BSD)
+" BSD "
+#endif
+#if defined(__BSD__)
+" __BSD__ "
+#endif
+#if defined(bsd)
+" bsd "
+#endif
+#if defined(__bsd__)
+" __bsd__ "
+#endif
+#if defined( __svr4__ ) 
+" __svr4__ "
+#endif
+#if defined( svr4 ) 
+" svr4 "
+#endif
+#if defined( __SVR4__ ) 
+" __SVR4__ "
+#endif
+#if defined( SVR4 ) 
+" SVR4 "
+#endif
+#if defined( __SVR4 )
+" __SVR4 "
+#endif
+#if defined( _SVR4 )
+" _SVR4 "
+#endif
+#if defined(__linux__)
+" __linux__ "
+#endif
+#if defined(_linux)
+" _linux "
+#endif
+#if defined(linux)
+" linux "
+#endif
+#if defined(__LINUX__)
+" __LINUX__ "
+#endif
+#if defined(_LINUX)
+" _LINUX "
+#endif
+#if defined(LINUX)
+" LINUX "
+#endif
+
 #ifdef __unix__
 " __unix__ "
 #endif
