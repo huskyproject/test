@@ -1,3 +1,7 @@
+2002-08-16 Friday 08:47  d_sergienko
+
+	* cvsxx (1.7): test
+
 2002-03-12 Tuesday 14:17  tobi
 
 	* test.c (1.20): test checkin after upgrade of cvs pserver program
