@@ -1,4 +1,4 @@
-static char *ident = "$Id$";
+static char *ident(){ return "$Id$"; }
 
 /* Test compiler for predefined macroses
  stdc
@@ -144,8 +144,16 @@ char *string = ""
 " __686__ "
 #endif
 
+#ifdef M_X86
+" M_X86 "
+#endif
+
 #ifdef _M_X86
 " _M_X86 "
+#endif
+
+#ifdef M_86
+" M_86 "
 #endif
 
 #ifdef _M_86
@@ -156,12 +164,44 @@ char *string = ""
 " _M_I86 "
 #endif
 
+#ifdef M_I86
+" M_I86 "
+#endif
+
+#ifdef _M_I8086
+" _M_I8086 "
+#endif
+
+#ifdef M_I8086
+" M_I8086 "
+#endif
+
+#ifdef _M_I8088
+" _M_I8088 "
+#endif
+
+#ifdef M_I8088
+" M_I8088 "
+#endif
+
+#ifdef M_186
+" M_186 "
+#endif
+
 #ifdef _M_186
 " _M_186 "
 #endif
 
+#ifdef M_286
+" M_286 "
+#endif
+
 #ifdef _M_286
 " _M_286 "
+#endif
+
+#ifdef M_386
+" M_386 "
 #endif
 
 #ifdef _M_386
@@ -172,6 +212,14 @@ char *string = ""
 " _M_486 "
 #endif
 
+#ifdef M_486
+" M_486 "
+#endif
+
+#ifdef M_586
+" M_586 "
+#endif
+
 #ifdef _M_586
 " _M_586 "
 #endif
@@ -180,8 +228,16 @@ char *string = ""
 " _M_686 "
 #endif
 
+#ifdef M_686
+" M_686 "
+#endif
+
 #ifdef _M_ALPHA
 " _M_ALPHA "
+#endif
+
+#ifdef M_ALPHA
+" M_ALPHA "
 #endif
 
 #ifdef __ALPHA__
@@ -280,6 +336,10 @@ char *string = ""
 " __MT__ "
 #endif
 
+#ifdef _QC
+" _QC "
+#endif
+
 #ifdef _MSC
  " _MSC "
 #endif
@@ -294,6 +354,22 @@ char *string = ""
 
 #ifdef __CHAR_UNSIGNED__
  " __CHAR_UNSIGNED__ "
+#endif
+
+#ifdef _CHAR_UNSIGNED
+ " _CHAR_UNSIGNED "
+#endif
+
+#ifdef _CHAR_UNSIGNED
+ " _CHAR_UNSIGNED "
+#endif
+
+#ifdef CHAR_SIGNED
+ " CHAR_SIGNED "
+#endif
+
+#ifdef _CHAR_SIGNED
+ " _CHAR_SIGNED "
 #endif
 
 #ifdef __CHAR_SIGNED__
@@ -366,13 +442,20 @@ printf( "__WATCOMC__=%u (0x%X)\n",__WATCOMC__, __WATCOMC__);
 #endif
 
 #ifdef _MSC
-printf( "_MSC=%u (0x%X); ",_MSC, _MSC);
+printf( "_MSC=%u (0x%X) ",_MSC, _MSC);
 #endif
 #ifdef _MSC_VER
-printf( "_MSC_VER=%u (0x%X)",_MSC_VER, _MSC_VER);
+printf( "_MSC_VER=%u (0x%X) ",_MSC_VER, _MSC_VER);
+#endif
+#ifdef MSC_CMD_FLAGS
+printf( "MSC_CMD_FLAGS=\"%s\" ", MSC_CMD_FLAGS);
 #endif
 #if defined(_MSC) || defined(_MSC_VER)
 printf( "\n");
+#endif
+
+#ifdef NO_EXT_KEYS
+printf( "NO_EXT_KEYS=%u\n", NO_EXT_KEYS);
 #endif
 
 #ifdef __STDC__
