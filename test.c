@@ -11,3 +11,4 @@ This is second test line from me. Add line in ChangeLog
 /* test from val */
 Testing keywords: $Revision$ and $Date$
 test husky-cvs list2 /antispam/
+test CRLF
