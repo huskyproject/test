@@ -21,12 +21,24 @@ char *string = ""
 " __DOS__ "
 #endif
 
+#ifdef __OS2__
+" __OS2__ "
+#endif
+
+#ifdef __OS2V2__
+" __OS2V2__ "
+#endif
+
 #ifdef __386__
 " __386__ "
 #endif
 
 #ifdef __FLAT__
 " __FLAT__ "
+#endif
+
+#ifdef __WATCOMC__
+" __WATCOMC__ "
 #endif
 
 #ifdef __UNIX__
