@@ -56,6 +56,10 @@ char *string = ""
 " _WINNT "
 #endif
 
+#ifdef _WIN32_WINNT
+" _WIN32_WINNT "
+#endif
+
 #ifdef __WIN32__
 " __WIN32__ "
 #endif
