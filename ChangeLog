@@ -1,3 +1,7 @@
+2004-06-02 Wednesday 23:31  d_sergienko
+
+	* test.c (1.34): test
+
 2004-03-10 Wednesday 11:43  stas_degteff
 
 	* crc16_.c (1.1): Test program for CRC16 algorithm by CCITT
