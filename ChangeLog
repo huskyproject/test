@@ -1,3 +1,41 @@
+2003-01-20 Monday 07:00  stas_degteff
+
+	* compiler.c (1.8): Test for _WIN32_WINNT macro
+
+2003-01-16 Thursday 08:46  stas_degteff
+
+	* compiler.c (1.7): Test defines for some unixes & apple
+
+2003-01-16 Thursday 08:01  stas_degteff
+
+	* compiler.c (1.6): Test defined QuickC
+
+2003-01-16 Thursday 06:52  stas_degteff
+
+	* compiler.c (1.5), comptst2.c (1.1): New tests for compiler
+	directives and defines
+
+2003-01-14 Tuesday 09:11  stas_degteff
+
+	* compiler.c (1.4): Add some macroses test
+
+2003-01-14 Tuesday 08:27  stas_degteff
+
+	* Makefile (1.1), compiler.c (1.3): Update defines list; add
+	makefile (now may be used with watcom/os2 or cygwin)
+
+2003-01-14 Tuesday 05:28  stas_degteff
+
+	* compiler.c (1.2): Improve Watcom C diagnostics
+
+2003-01-13 Monday 07:10  stas_degteff
+
+	* compiler.c (1.1): Test program for compiler's predefined macroses
+
+2003-01-08 Wednesday 03:04  andr_lukyanov
+
+	* test.c (1.27): Testing ssh connection
+
 2002-12-25 Wednesday 23:23  nssoft
 
 	* test.c (1.25): test maillist
