@@ -1,1 +1,72 @@
-test
+2001-05-01 Tuesday 18:59  tobi
+
+	* .cvs2cl (1.1): auto-create changelog
+
+2001-04-30 Monday 09:48  tobi
+
+	* test.c (1.16): checked in some umlauts
+
+2000-10-22 Sunday 21:43  tobi
+
+	* test.c (1.15): test
+
+2000-10-22 Sunday 21:42  tobi
+
+	* test.c (1.14): blubb
+
+2000-10-22 Sunday 21:41  tobi
+
+	* test.c (1.13): itest
+
+2000-10-22 Sunday 17:17  mhaase
+
+	* test.c (1.12): Test von Micha in test.c
+
+2000-10-17 Tuesday 23:44  tobi
+
+	* date.h (1.3): blurb
+
+2000-10-17 Tuesday 23:41  tobi
+
+	* test.c (1.11): test for spawn
+
+2000-10-17 Tuesday 23:41  tobi
+
+	* test.c (1.10): hi
+
+2000-10-17 Tuesday 22:50  tobi
+
+	* test.c (1.9): test cvs 1.11 for OS/2
+
+2000-10-15 Sunday 15:42  tobi
+
+	* test.c (1.8): test message
+
+2000-10-15 Sunday 15:41  tobi
+
+	* test.c (1.7): this is a tes tmessage
+
+2000-07-08 Saturday 01:14  tobi
+
+	* test.c (1.6): trala
+
+2000-07-08 Saturday 01:11  tobi
+
+	* test.c (1.5): blurb
+
+2000-07-08 Saturday 01:09  tobi
+
+	* test.c (1.4), date.h (1.1): blubb
+
+2000-07-08 Saturday 01:08  tobi
+
+	* test.c (1.3): played with -i
+
+2000-03-19 Sunday 21:42  tobi
+
+	* test.c (1.2): test !
+
+2000-03-19 Sunday 21:34  tobi
+
+	* test.c (1.1): Initial revision
+
