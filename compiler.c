@@ -32,6 +32,14 @@ char *string = ""
 " __DOS__ "
 #endif
 
+#ifdef __DJGPP__
+" __DJGPP__ "
+#endif
+
+#ifdef __DOS4G__
+" __DOS4G__ "
+#endif
+
 #ifdef __NT__
 " __NT__ "
 #endif
@@ -569,10 +577,17 @@ printf( "__STDC__=%u (0x%X); ", __STDC__, __STDC__);
 #ifdef __STDC_VERSION__
 printf( "__STDC_VERSION__=%u (0x%X); ", __STDC_VERSION__, __STDC_VERSION__);
 #endif
-#if defined(__STDC_VERSION__) || defined(__STDC_VERSION__)
+#if defined(__STDC__) || defined(__STDC_VERSION__) || defined(__STDC_VERSION__)
 printf( "\n");
 #endif
 
+printf( "\nVariable types sizes (in bytes):\n" );
+printf( "char=%u; short=%u; int=%u; long=%u\n",
+        (unsigned) sizeof(char),
+        (unsigned) sizeof(short),
+        (unsigned) sizeof(int),
+        (unsigned) sizeof(long)
+      );
 
 return 0;
 }
