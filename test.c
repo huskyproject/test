@@ -14,4 +14,4 @@ test husky-cvs list2 /antispam/
 test CRLF
 test syncmail
 test new nightly script
-test cvs tags & branches
+test cvs tags & branches 2
