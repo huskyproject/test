@@ -247,7 +247,7 @@ char *string = ""
 " __32BIT__ "
 #endif
 
-#ifdef __MT__
+#ifdef __MT__    /* Multi-thread library */
 " __MT__ "
 #endif
 
