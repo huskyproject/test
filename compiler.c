@@ -72,6 +72,10 @@ char *string = ""
 " __WIN32__ "
 #endif
 
+#ifdef __WIN64__
+" __WIN64__ "
+#endif
+
 #ifdef WIN32
 " WIN32 "
 #endif
@@ -154,6 +158,10 @@ char *string = ""
 
 #ifdef __686__
 " __686__ "
+#endif
+
+#ifdef __786__
+" __786__ "
 #endif
 
 #ifdef M_X86
