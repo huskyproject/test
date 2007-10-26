@@ -1,4 +1,6 @@
+/*
 $Id$
+
 this is a test
 test 2
 test for Ivan Fedorov
@@ -14,3 +16,5 @@ test husky-cvs list2 /antispam/
 test CRLF
 test syncmail
 test new nightly script
+
+*/
