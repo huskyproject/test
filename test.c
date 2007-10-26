@@ -7,7 +7,6 @@ test for Ivan Fedorov
 test2 for Ivan Fedorov
 test3 for Ivan Fedorov
 This is test line from me.
-This is second test line from me. Add line in ChangeLog
 Testing keywords: $Revision$ and $Date$
 test syncmail
 */
