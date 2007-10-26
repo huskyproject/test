@@ -10,6 +10,5 @@ This is test line from me.
 This is second test line from me. Add line in ChangeLog
 Testing keywords: $Revision$ and $Date$
 test husky-cvs list2 /antispam/
-test CRLF
 test syncmail
 */
