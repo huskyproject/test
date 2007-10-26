@@ -1,9 +1,9 @@
 default:
 	-cd . | gcc -E -dM - | more
-	echo Call 'wmake watcom-os2' for OS/2 watcom build
-	echo Call 'make cygwin' for cygwin
-	echo Call 'make mingw' for mingw32 and cygwin "gcc -mno-cygwin"
-	echo Call 'make djgpp' for djgpp
+	-echo Call 'wmake watcom-os2' for OS/2 watcom build
+	-echo Call 'make cygwin' for cygwin
+	-echo Call 'make mingw' for mingw32 and cygwin "gcc -mno-cygwin"
+	-echo Call 'make djgpp' for djgpp
 
 djgpp:
 	gcc compiler.c -ocompiler.exe
