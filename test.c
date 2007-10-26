@@ -2,5 +2,7 @@
 $Id$
 
 This is a test
-Testing keywords: $Revision$ and $Date$
+Testing keywords:
+   $Revision$
+   $Date$
 */
