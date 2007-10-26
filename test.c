@@ -16,5 +16,4 @@ test husky-cvs list2 /antispam/
 test CRLF
 test syncmail
 test new nightly script
-
 */
