@@ -1,0 +1,2 @@
+This module is created for any tests.
+For testing GCC on new for HUSKY plaform you should run make with this Makefile.
